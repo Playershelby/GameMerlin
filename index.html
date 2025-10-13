@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SRC/CSS/Style.css">
+    <title>O nascer da Magia.</title>
+</head>
+<body>
+    <main>
+        <div class="midia">
+            <video width="2560" height="1080" src="/SRC/Videos/The Wizard Tower -Trim.mp4" autoplay muted loop></video>
+            <audio id="sound" src="SRC/audio/The Life Merlin.mp3" loop autoplay muted preload="auto"></audio>
+            <div class="persongem">
+                <img src="/SRC/IMG/Merlin_kids.png" alt="Imagem do Merlin">
+            </div>
+        </div>
+        <div class="quiz">
+            <div class="content">
+                <h1>Quiz Mágico</h1>
+                <p>Teste seus conhecimentos sobre magia</p>
+                <button id="btn-iniciar" onclick="startQuiz()">Iniciar a jornada</button>
+            </div>
+            <div class="question" style="display: none;">
+                <span class="spnQtd"></span>
+                <span class="question-text"></span>
+                <div class="answers"></div>
+            </div>
+            <div class="finish" style="display: none;">
+                <span></span>
+                <button id="btnRestart">Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="/SRC/script/index.js"></script>
+</body>
+</html>
