@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>O nascer da Magia.</title>
+</head>
+<body>
+    <main>
+        <div class="midia">
+            <video width="2560" height="1080" src="Videos/The Wizard Tower -Trim.mp4" autoplay muted loop></video>
+            <audio id="sound" src="audio/The Life Merlin.mp3" loop autoplay muted preload="auto"></audio>
+            <div class="persongem" id="personagemI">
+                <img src="IMG/Merlin_kids.png" alt="Imagem do Merlin">
+            </div>
+        </div>
+        <div class="quiz">
+            <div class="content">
+                <h1>Quiz Mágico</h1>
+                <p>Teste seus conhecimentos sobre magia</p>
+                <button id="btn-iniciar" onclick="startQuiz()">Iniciar a jornada</button>
+            </div>
+            <div class="question" style="display: none;">
+                <span class="spnQtd"></span>
+                <span class="question-text"></span>
+                <div class="answers"></div>
+            </div>
+            <div class="finish" style="display: none;">
+                <span></span>
+
+                 <div class="personagem-section">
+                    <img id="personagemImg" 
+                        src="IMG/Merlin_kids.png"
+                        alt="Personagem Normal" >
+                    <p>"Os ventos do destino trouxeram você até mim... e ventos nunca sopram sem propósito."</p>
+                </div>
+
+                <button id="btnRestart">Reiniciar</button>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
