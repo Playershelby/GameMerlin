@@ -95,7 +95,7 @@ export default [
             { option: "Fazer objetos flutuarem", correct: false},
             {option: "Falar com os animais", correct: false},
             {option: "Controlar o clima ao meu redor", correct: true},
-            {option: "Ler a mente das pessoas", correct: true},
+            {option: "Ler a mente das pessoas", correct: false},
         ]    
     },
     {
