@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧙‍♂️ The origin of Merlin – Quiz Interativo
 
 Um projeto desenvolvido inteiramente com **HTML**, **CSS** e **JavaScript**, criado com o objetivo de proporcionar uma experiência simples, interativa e divertida diretamente no navegador.
@@ -52,3 +51,4 @@ Além de entreter, o projeto tem como foco mostrar conceitos básicos de **inter
 # GameMerlin
 A web game developed by Fernando Junior
 >>>>>>> 181c6887e83d986d46ce40298e5321ede64a562b
+
