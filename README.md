@@ -35,6 +35,9 @@ O **Quiz Origem de Merlin** é inspirado nas lendas arthurianas, explorando o na
 Além de entreter, o projeto tem como foco mostrar conceitos básicos de **interatividade, manipulação de dados e estrutura lógica** no front-end.
 
 ## 🚀 Como Executar
+1. Acessando o limk 🔗:
+   ```bash
+   https://game-merlin.netlify.app/
 
 1. Clone o repositório:
    ```bash
@@ -51,4 +54,5 @@ Além de entreter, o projeto tem como foco mostrar conceitos básicos de **inter
 # GameMerlin
 A web game developed by Fernando Junior
 >>>>>>> 181c6887e83d986d46ce40298e5321ede64a562b
+
 
